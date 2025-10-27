@@ -1,0 +1,18 @@
+.unified-login-tabs .ant-tabs-tab {
+    padding: 12px 24px;
+    font-weight: 500;
+}
+
+.unified-login-tabs .ant-tabs-tab-active {
+    color: #1890ff;
+}
+
+.unified-login-tabs .ant-tabs-ink-bar {
+    background: #1890ff;
+}
+
+.unified-login-tabs .ant-tabs-content-holder {
+    padding-top: 24px;
+}
+
+

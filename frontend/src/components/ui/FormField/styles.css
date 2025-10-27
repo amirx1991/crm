@@ -1,0 +1,70 @@
+.form-field {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.form-field .ant-form-item-label {
+  padding-bottom: 8px;
+}
+
+.form-field .ant-form-item-label > label {
+  font-weight: 500;
+  color: #1f2937;
+}
+
+.form-field .ant-input,
+.form-field .ant-input-number,
+.form-field .ant-select-selector,
+.form-field .ant-picker,
+.form-field .ant-switch {
+  border-radius: 6px;
+  border-color: #e5e7eb;
+}
+
+.form-field .ant-input:hover,
+.form-field .ant-input-number:hover,
+.form-field .ant-select-selector:hover,
+.form-field .ant-picker:hover {
+  border-color: #40a9ff;
+}
+
+.form-field .ant-input:focus,
+.form-field .ant-input-number-focused,
+.form-field .ant-select-focused .ant-select-selector,
+.form-field .ant-picker-focused {
+  border-color: #40a9ff;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+.form-field .ant-input[disabled],
+.form-field .ant-input-number[disabled],
+.form-field .ant-select-disabled .ant-select-selector,
+.form-field .ant-picker-disabled {
+  background-color: #f3f4f6;
+  border-color: #e5e7eb;
+  color: #9ca3af;
+}
+
+.form-field .ant-radio-group,
+.form-field .ant-checkbox-group {
+  width: 100%;
+}
+
+.form-field .ant-radio-wrapper,
+.form-field .ant-checkbox-wrapper {
+  margin-bottom: 8px;
+}
+
+.form-field .ant-switch {
+  background-color: #e5e7eb;
+}
+
+.form-field .ant-switch-checked {
+  background-color: #1890ff;
+}
+
+.form-field .ant-form-item-explain-error {
+  color: #ff4d4f;
+  font-size: 14px;
+  margin-top: 4px;
+} 
